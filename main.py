@@ -5,6 +5,8 @@
 #     -H "accept: application/json" \
 #     -F "imagem=@pessoa_triste.jpg"
 
+# Rodar a API
+# uvicorn main:app --reload
 
 from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import JSONResponse
