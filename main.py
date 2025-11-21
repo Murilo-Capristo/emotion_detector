@@ -18,7 +18,7 @@ from PIL import Image
 import io
 
 app = FastAPI()
-detector = FER(mtcnn=True)  # Usa MTCNN para detectar a face
+detector = FER()
 
 @app.post("/analisar-emocao")
 async def analisar_emocao(imagem: UploadFile = File(...)):
