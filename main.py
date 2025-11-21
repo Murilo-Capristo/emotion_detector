@@ -1,7 +1,7 @@
 # Bibliotecas para instalar:
 # pip install fastapi uvicorn numpy opencv-python Pillow fer python-multipart
 
-#	 curl -X POST "http://localhost:8000/analisar-emocao" \
+#	 curl -X POST "http://104.41.50.188:8000/analisar-emocao" \
 #     -H "accept: application/json" \
 #     -F "imagem=@pessoa_triste.jpg"
 
