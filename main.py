@@ -6,7 +6,8 @@
 #     -F "imagem=@pessoa_triste.jpg"
 
 # Rodar a API
-# uvicorn main:app --reload
+# uvicorn main:app --host 0.0.0.0 --port 8000
+
 
 from fastapi import FastAPI, File, UploadFile
 from fastapi.responses import JSONResponse
