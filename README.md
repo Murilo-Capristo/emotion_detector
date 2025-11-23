@@ -42,6 +42,8 @@ Bem-vindo ao repositório da **API de Reconhecimento Facial** do projeto EMMA! E
    ```bash
    git clone https://github.com/Murilo-Capristo/emotion_detector.git
 
+   cd emotion_detector
+
 2. Instale as dependências:
    ```bash
    pip install fastapi uvicorn numpy opencv-python Pillow fer python-multipart
@@ -61,3 +63,4 @@ Bem-vindo ao repositório da **API de Reconhecimento Facial** do projeto EMMA! E
      	 curl -X POST "http://104.41.50.188:8000/analisar-emocao" \
      -H "accept: application/json" \
      -F "imagem=@pessoa_triste.jpg"
+
